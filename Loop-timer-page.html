@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Loop Timer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🏃 Loop Timer</h1>
+    <div id="timer">00:00:00</div>
+    <div class="buttons">
+      <button id="start">Start</button>
+      <button id="lap">Lap</button>
+      <button id="reset">Reset</button>
+      <button id="viewLaps">View Saved Laps</button>
+    </div>
+    <div id="stats">
+      <p>Loops: <span id="loopCount">0</span></p>
+      <p>Distance: <span id="distance">0.000</span> km</p>
+    </div>
+    <ul id="lapList"></ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
